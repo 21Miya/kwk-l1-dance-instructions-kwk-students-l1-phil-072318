@@ -39,5 +39,11 @@ end
 
 assumestance
 bustamove
-  
+basefootwork
+bobthereins
+skipstepleft
+skipstepright
+lasso
+skipstepleft
+skipstepright
 # Code your methods below
