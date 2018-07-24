@@ -1,5 +1,10 @@
 def AssumeStance
   puts "Plant legs far apart, bend knees slightly and keep posture loose"
+end
+
+def BustAMove
+  puts "Be cool"
+  puts "Be snazzy!"
 END
 
 def BaseFootwork
@@ -32,7 +37,7 @@ def Lasso
   puts "Raise right forearm so that it points straight up, and whip it in small circles to the beat of the song, as if you were a cowboy holding a rope lasso. This movement is repeated eight times as well."
 END
 
-puts AssumeStance
+AssumeStance
 
   
 # Code your methods below
