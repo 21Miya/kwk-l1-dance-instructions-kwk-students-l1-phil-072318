@@ -13,13 +13,10 @@ def basefootwork
   puts "Finishing with a small skip-step backward"
 end
 
-def skip_step
-  puts "Lower left foot to the ground"
-  puts "Bounce left foot back up slightly, kicking it a few inches back"
-  puts "Left, Right, Left and Left"
-  puts "Lower right foot to the ground"
-  puts "Bounce right foot back up slightly, kicking it a few inches back"
-  puts "Right, Left, Right and Right"
+def skip_step(left)
+  puts "Lower #{left} foot to the ground"
+  puts "Bounce #{left} foot back up slightly, kicking it a few inches back"
+  puts "#{left}, Right, Left and Left"
 end
   
 def bobthereins
