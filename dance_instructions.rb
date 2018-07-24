@@ -13,10 +13,10 @@ def basefootwork
   puts "Finishing with a small skip-step backward"
 end
 
-def skip_step(left)
+def skip_step(left, right)
   puts "Lower #{left} foot to the ground"
   puts "Bounce #{left} foot back up slightly, kicking it a few inches back"
-  puts "Left, Right, Left and Left"
+  puts "#{left}, #{right}, #{left} and #{left}"
 end
   
 def bobthereins
@@ -35,7 +35,8 @@ starting_stance
 bustamove
 basefootwork
 bobthereins
-skip_step
+skip_step("left", "right")
+skip_step("right", "left")
 lasso
 skip_step
 # Code your methods below
