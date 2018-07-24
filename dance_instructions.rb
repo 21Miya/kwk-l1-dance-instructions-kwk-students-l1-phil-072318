@@ -37,7 +37,7 @@ def lasso
   puts "Raise right forearm so that it points straight up, and whip it in small circles to the beat of the song, as if you were a cowboy holding a rope lasso. This movement is repeated eight times as well."
 end
 
-assumestance
+starting_stance
 bustamove
 basefootwork
 bobthereins
